@@ -23,13 +23,28 @@ This project automates critical use cases for the Magento Test Site using Webdri
    npm install
    ```
 
-### Downloading the Repository
+### Cloning the Repository
 
-To download the repository, follow these steps:
-1. Navigate to the GitHub repository URL in your web browser.
-2. Click on the green "Code" button.
-3. Select "Download ZIP" to download the repository as a ZIP file.
-4. Extract the ZIP file to your desired location on your computer.
+To clone the repository, use the following command:
+```bash
+git clone https://github.com/HabibaMersal10/magento-automation.git
+```
+This will create a local copy of the repository on your machine.
+
+### Steps After Cloning the Repository
+
+1. Navigate to the project directory:
+   ```bash
+   cd magento-automation
+   ```
+2. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the tests using the following command:
+   ```bash
+   npx wdio run wdio.conf.js
+   ```
 
 ### Running Tests
 1. To run all tests:
